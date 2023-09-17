@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon portfolio</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+  <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+      <img class="img-fluid mb-lg-4 mb-lg-4  rounded-circle d-lg-block" src="./assets/images/PhotoCV.jpg" alt="">
+      <a class="navbar-brand mb-lg-4" href="#">
+        <span class="h5 fw-bold">Olivier Bazou MENIN</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Accueil</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#aboutme">Présentation</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apercu">Apercu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="content-wrapper">
+    <section id="home" class="full-height px-lg-5">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-10">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">Apprenti <span class="text-brand">développeur web</span> à
+              la <span class="text-brand">Web@cadémie</span> by <span class="text-brand">EPITECH</span></h1>
+            <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Passionné par le développement web, je
+              recherche une opportunité d'alternance qui me permettra de concrétiser ma créativité et mes compétences
+              techniques pour construire des expériences en ligne exceptionnelles.</p>
+            <div data-aos="fade-up" data-aos-delay="500">
+              <a href="#project" class="btn btn-brand me-3">Mes projets</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div data-aos="fade-up" data-aos-delay="300">
+            <a href="./assets/CV_Olivier.pdf" download="CV_Olivier_MENIN"
+              class="btn btn-brand me-3">Télécharger mon CV <i class="las la-file-download"></i></a>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div data-aos="fade-up" data-aos-delay="300">
+            <p class="link-custom1">Tel : 06 50 91 53 76</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="project" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">MES PROJETS</h6>
+            <h1>Exemples de projets réalisés</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="projets p-4 bg-base rounded-4 shawdow-effect">
+              <div class="iconbox rounded-4">
+                <i class="las la-coins"></i>
+              </div>
+              <h4 class="mt-4 mb-2" data-aos="fade-up" data-aos-delay="400">Puissance 4</h4>
+              <p>Création d'un jeu puissance 4 en Javascript, HTML, CSS</p>
+              <a href="./puissance4" class="link-custom">Jouer /</a>
+              <a href="https://github.com/Bazou7/Puissance4" class="link-custom">Voir GitHub</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="projets p-4 bg-base rounded-4 shawdow-effect">
+              <div class="iconbox rounded-4">
+                <i class="las la-video"></i>
+              </div>
+              <h4 class="mt-4 mb-2" data-aos="fade-up" data-aos-delay="300">My Cinema</h4>
+              <p>Gestion d'un cinéma, incluant la gestion des utilisateurs et des abonnements.</p>
+              <!--<a href="./" class="link-custom">Aperçu /</a>-->
+              <a href="#myCinema" class="link-custom">Apercu /</a>
+              <a href="https://github.com/Bazou7/MyCinema" class="link-custom">Voir GitHub </a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="projets p-4 bg-base rounded-4 shawdow-effect">
+              <div class="iconbox rounded-4">
+                <i class="las la-chess-board"></i>
+              </div>
+              <h4 class="mt-4 mb-2" data-aos="fade-up" data-aos-delay="500">Tic Tac Toe</h4>
+              <p>Jeu du Tic Tac Toe en Javascript, HTML, CSS</p>
+              <a href="./TicTacToe" class="link-custom">Jouer /</a>
+              <a href="https://github.com/Bazou7/TicTacToe" class="link-custom">Voir GitHub </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="projets p-4 bg-base rounded-4 shawdow-effect">
+              <div class="iconbox rounded-4">
+                <i class="las la-coins"></i>
+              </div>
+              <h4 class="mt-4 mb-2" data-aos="fade-up" data-aos-delay="400">My Internet Relay Chat</h4>
+              <p>Chat instantanée réalisé avec Node.js, Express, Socket io et React.js</p>
+              <a href="#irc" class="link-custom">Apercu /</a>
+              <a href="https://github.com/Bazou7/MyIRC" class="link-custom">Voir GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apercu" class="full-height px-lg-5">
+      <div class="container-fluid">
+        <div class="row pb-2" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">Apercu</h6>
+          </div>
+        </div>
+        <h1 class="mb-4">My Cinema</h1>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <img id="myCinema" src="/assets/images/cinema.PNG" alt="">
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <img class="project-image" src="/assets/images/cinema2.PNG" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="300">
+            <img class="project-image" src="/assets/images/cinema3.png" alt="">
+          </div>
+          <div class="col-lg-6 my-5" data-aos="fade-up" data-aos-delay="300">
+            <img class="project-image" src="/assets/images/cinema4.png" alt="">
+          </div>
+        </div>
+        <h1 class="mt- 5 mb-4">My IRC</h1>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
+            <img id="irc" src="/assets/images/irc.PNG" alt="">
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <img class="project-image" src="/assets/images/irc1.PNG" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
