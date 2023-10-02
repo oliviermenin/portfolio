@@ -105,6 +105,12 @@ img {
         border: 6px solid var(--color-brand);
     }
 
+    .container-fluid img {
+        border-radius: 10px;
+        border: 4px solid white;
+
+      }
+
     /*content wrapper */
     #content-wrapper {
         padding-left: var(--sidbar-width);
